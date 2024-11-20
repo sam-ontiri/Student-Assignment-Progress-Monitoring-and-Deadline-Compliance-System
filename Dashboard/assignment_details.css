@@ -1,0 +1,137 @@
+:root {
+    --primary-color: rgb(0, 0, 94);
+    --secondary-color: rgb(0, 0, 94);
+    --background-color: #ecf0f1;
+    --text-color: #2c3e50;
+    --success-color: #2ecc71;
+    --error-color: #e74c3c;
+    --border-color: #bdc3c7;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+.assignment-box {
+    background-color: #ffffff;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-box h3 {
+    color: var(--secondary-color);
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.due-date {
+    color: var(--text-color);
+    font-style: italic;
+}
+
+.assignment-description {
+    margin-top: 15px;
+}
+
+.assignment-description h4 {
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+}
+
+.status {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.submission-form {
+    margin-top: 15px;
+}
+
+.submission-form label {
+    display: block;
+    margin-top: 10px;
+    color: var(--text-color);
+}
+
+.submission-form textarea,
+.submission-form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.submission-form button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.submission-form button:hover {
+    background-color: var(--secondary-color);
+}
+
+.success {
+    color: var(--success-color);
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(46, 204, 113, 0.1);
+    border-radius: 4px;
+}
+
+.error {
+    color: var(--error-color);
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgba(231, 76, 60, 0.1);
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}
+
